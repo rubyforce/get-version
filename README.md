@@ -1,6 +1,9 @@
 # Get::Version
 
-TODO: Write a gem description
+Sinatra application for mounting to the rails projects for quick access to the
+version.txt file based on
+
+  git describe --tags
 
 ## Installation
 
@@ -18,7 +21,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  # config/routes.rb
+  mount '/' => GetVersion::Web
 
 ## Contributing
 
