@@ -3,7 +3,7 @@
 Sinatra application for mounting to the rails projects for quick access to the
 version.txt file based on
 
-  git describe --tags
+    git describe --tags
 
 ## Installation
 
@@ -21,8 +21,8 @@ Or install it yourself as:
 
 ## Usage
 
-  # config/routes.rb
-  mount '/' => GetVersion::Web
+    # config/routes.rb
+    mount '/' => GetVersion::Web
 
 ## Contributing
 
