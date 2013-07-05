@@ -22,7 +22,7 @@ Or install it yourself as:
 ## Usage
 
     # config/routes.rb
-    mount '/' => GetVersion::Web
+    mount GetVersion::Web => '/'
 
 ## Contributing
 
